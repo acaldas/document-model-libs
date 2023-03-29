@@ -96,6 +96,8 @@ All document models extend the Base Document model, which provides some common f
 
 All document reducers are wrapped by the Base Document reducer, which is responsible for updating the document attributes described above and adds support for some base document features.
 
+[Document actions](markdown/modules/Document.actions.md)
+
 -   `SET_NAME`: Changes the name of the document
 
 ```javascript
