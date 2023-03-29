@@ -55,7 +55,7 @@ The new action.
 
 #### Defined in
 
-[document/utils/base.ts:22](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/base.ts#L22)
+[document/utils/base.ts:22](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/base.ts#L22)
 
 ___
 
@@ -86,7 +86,7 @@ The new document state.
 
 #### Defined in
 
-[document/utils/base.ts:93](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/base.ts#L93)
+[document/utils/base.ts:93](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/base.ts#L93)
 
 ___
 
@@ -142,7 +142,7 @@ The new reducer.
 
 #### Defined in
 
-[document/utils/base.ts:55](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/base.ts#L55)
+[document/utils/base.ts:55](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/base.ts#L55)
 
 ___
 
@@ -166,7 +166,7 @@ A Promise that resolves to an object containing the base64-encoded data and MIME
 
 #### Defined in
 
-[document/utils/file.ts:97](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/file.ts#L97)
+[document/utils/file.ts:97](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/file.ts#L97)
 
 ___
 
@@ -190,7 +190,7 @@ The hash of the attachment data.
 
 #### Defined in
 
-[document/utils/file.ts:119](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/file.ts#L119)
+[document/utils/file.ts:119](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/file.ts#L119)
 
 ___
 
@@ -231,7 +231,7 @@ A promise that resolves to the document state after applying all the operations.
 
 #### Defined in
 
-[document/utils/file.ts:60](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/file.ts#L60)
+[document/utils/file.ts:60](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/file.ts#L60)
 
 ___
 
@@ -255,7 +255,7 @@ A Promise that resolves to an object containing the base64-encoded data and MIME
 
 #### Defined in
 
-[document/utils/file.ts:109](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/file.ts#L109)
+[document/utils/file.ts:109](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/file.ts#L109)
 
 ___
 
@@ -286,4 +286,4 @@ A promise that resolves to the path of the saved file.
 
 #### Defined in
 
-[document/utils/file.ts:18](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/utils/file.ts#L18)
+[document/utils/file.ts:18](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/utils/file.ts#L18)

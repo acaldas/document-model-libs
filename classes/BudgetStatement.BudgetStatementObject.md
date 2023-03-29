@@ -110,7 +110,7 @@ Creates a new BudgetStatementObject instance.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:54](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L54)
+[budget-statement/gen/object.ts:54](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L54)
 
 ## Properties
 
@@ -124,7 +124,7 @@ Creates a new BudgetStatementObject instance.
 
 #### Defined in
 
-[document/object.ts:13](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L13)
+[document/object.ts:13](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L13)
 
 ___
 
@@ -136,7 +136,7 @@ The file extension used to save budget statements.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:47](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L47)
+[budget-statement/gen/object.ts:47](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L47)
 
 ## Accessors
 
@@ -156,7 +156,7 @@ AccountObject.created
 
 #### Defined in
 
-[document/object.ts:88](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L88)
+[document/object.ts:88](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L88)
 
 ___
 
@@ -176,7 +176,7 @@ AccountObject.documentType
 
 #### Defined in
 
-[document/object.ts:81](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L81)
+[document/object.ts:81](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L81)
 
 ___
 
@@ -196,7 +196,7 @@ AccountObject.initialState
 
 #### Defined in
 
-[document/object.ts:109](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L109)
+[document/object.ts:109](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L109)
 
 ___
 
@@ -216,7 +216,7 @@ AccountObject.lastModified
 
 #### Defined in
 
-[document/object.ts:95](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L95)
+[document/object.ts:95](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L95)
 
 ___
 
@@ -232,7 +232,7 @@ Gets the month of the budget statement.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:67](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L67)
+[budget-statement/gen/object.ts:67](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L67)
 
 ___
 
@@ -252,7 +252,7 @@ AccountObject.name
 
 #### Defined in
 
-[document/object.ts:74](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L74)
+[document/object.ts:74](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L74)
 
 ___
 
@@ -272,7 +272,7 @@ AccountObject.operations
 
 #### Defined in
 
-[document/object.ts:116](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L116)
+[document/object.ts:116](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L116)
 
 ___
 
@@ -294,7 +294,7 @@ Gets the owner of the budget statement.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:74](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L74)
+[budget-statement/gen/object.ts:74](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L74)
 
 ___
 
@@ -310,7 +310,7 @@ Gets the quote currency of the budget statement.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:81](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L81)
+[budget-statement/gen/object.ts:81](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L81)
 
 ___
 
@@ -330,7 +330,7 @@ AccountObject.revision
 
 #### Defined in
 
-[document/object.ts:102](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L102)
+[document/object.ts:102](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L102)
 
 ___
 
@@ -352,7 +352,7 @@ StatusObject.status
 
 #### Defined in
 
-[budget-statement/gen/status/object.ts:56](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/status/object.ts#L56)
+[budget-statement/gen/status/object.ts:56](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/status/object.ts#L56)
 
 ## Methods
 
@@ -378,7 +378,7 @@ AccountObject.addAccount
 
 #### Defined in
 
-[budget-statement/gen/account/object.ts:18](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/object.ts#L18)
+[budget-statement/gen/account/object.ts:18](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/object.ts#L18)
 
 ___
 
@@ -404,7 +404,7 @@ AuditObject.addAuditReport
 
 #### Defined in
 
-[budget-statement/gen/audit/object.ts:18](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/audit/object.ts#L18)
+[budget-statement/gen/audit/object.ts:18](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/audit/object.ts#L18)
 
 ___
 
@@ -431,7 +431,7 @@ LineItemObject.addLineItem
 
 #### Defined in
 
-[budget-statement/gen/line-item/object.ts:20](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/line-item/object.ts#L20)
+[budget-statement/gen/line-item/object.ts:20](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/line-item/object.ts#L20)
 
 ___
 
@@ -451,7 +451,7 @@ StatusObject.approve
 
 #### Defined in
 
-[budget-statement/gen/status/object.ts:32](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/status/object.ts#L32)
+[budget-statement/gen/status/object.ts:32](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/status/object.ts#L32)
 
 ___
 
@@ -477,7 +477,7 @@ AccountObject.deleteAccount
 
 #### Defined in
 
-[budget-statement/gen/account/object.ts:34](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/object.ts#L34)
+[budget-statement/gen/account/object.ts:34](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/object.ts#L34)
 
 ___
 
@@ -503,7 +503,7 @@ AuditObject.deleteAuditReport
 
 #### Defined in
 
-[budget-statement/gen/audit/object.ts:35](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/audit/object.ts#L35)
+[budget-statement/gen/audit/object.ts:35](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/audit/object.ts#L35)
 
 ___
 
@@ -530,7 +530,7 @@ LineItemObject.deleteLineItem
 
 #### Defined in
 
-[budget-statement/gen/line-item/object.ts:44](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/line-item/object.ts#L44)
+[budget-statement/gen/line-item/object.ts:44](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/line-item/object.ts#L44)
 
 ___
 
@@ -558,7 +558,7 @@ The DocumentObject instance.
 
 #### Defined in
 
-[document/object.ts:34](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L34)
+[document/object.ts:34](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L34)
 
 ___
 
@@ -578,7 +578,7 @@ StatusObject.escalate
 
 #### Defined in
 
-[budget-statement/gen/status/object.ts:25](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/status/object.ts#L25)
+[budget-statement/gen/status/object.ts:25](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/status/object.ts#L25)
 
 ___
 
@@ -604,7 +604,7 @@ AccountObject.getAccount
 
 #### Defined in
 
-[budget-statement/gen/account/object.ts:49](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/object.ts#L49)
+[budget-statement/gen/account/object.ts:49](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/object.ts#L49)
 
 ___
 
@@ -624,7 +624,7 @@ AccountObject.getAccounts
 
 #### Defined in
 
-[budget-statement/gen/account/object.ts:41](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/object.ts#L41)
+[budget-statement/gen/account/object.ts:41](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/object.ts#L41)
 
 ___
 
@@ -655,7 +655,7 @@ Gets the attachment associated with the given key.
 
 #### Defined in
 
-[document/object.ts:124](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L124)
+[document/object.ts:124](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L124)
 
 ___
 
@@ -683,7 +683,7 @@ AuditObject.getAuditReport
 
 #### Defined in
 
-[budget-statement/gen/audit/object.ts:52](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/audit/object.ts#L52)
+[budget-statement/gen/audit/object.ts:52](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/audit/object.ts#L52)
 
 ___
 
@@ -705,7 +705,7 @@ AuditObject.getAuditReports
 
 #### Defined in
 
-[budget-statement/gen/audit/object.ts:43](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/audit/object.ts#L43)
+[budget-statement/gen/audit/object.ts:43](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/audit/object.ts#L43)
 
 ___
 
@@ -736,7 +736,7 @@ LineItemObject.getLineItem
 
 #### Defined in
 
-[budget-statement/gen/line-item/object.ts:68](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/line-item/object.ts#L68)
+[budget-statement/gen/line-item/object.ts:68](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/line-item/object.ts#L68)
 
 ___
 
@@ -764,7 +764,7 @@ LineItemObject.getLineItems
 
 #### Defined in
 
-[budget-statement/gen/line-item/object.ts:56](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/line-item/object.ts#L56)
+[budget-statement/gen/line-item/object.ts:56](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/line-item/object.ts#L56)
 
 ___
 
@@ -792,7 +792,7 @@ TopupObject.getTopupTransaction
 
 #### Defined in
 
-[budget-statement/gen/topup/object.ts:42](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/topup/object.ts#L42)
+[budget-statement/gen/topup/object.ts:42](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/topup/object.ts#L42)
 
 ___
 
@@ -818,7 +818,7 @@ InitObject.init
 
 #### Defined in
 
-[budget-statement/gen/init/object.ts:14](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/init/object.ts#L14)
+[budget-statement/gen/init/object.ts:14](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/init/object.ts#L14)
 
 ___
 
@@ -846,7 +846,7 @@ A promise that resolves with the loaded `BudgetStatementObject` instance.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:101](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L101)
+[budget-statement/gen/object.ts:101](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L101)
 
 ___
 
@@ -873,7 +873,7 @@ Loads a document state and a set of operations.
 
 #### Defined in
 
-[document/object.ts:165](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L165)
+[document/object.ts:165](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L165)
 
 ___
 
@@ -900,7 +900,7 @@ Removes a range of operations from the document.
 
 #### Defined in
 
-[document/object.ts:156](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L156)
+[document/object.ts:156](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L156)
 
 ___
 
@@ -926,7 +926,7 @@ Reapplies a number of actions to the document.
 
 #### Defined in
 
-[document/object.ts:148](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L148)
+[document/object.ts:148](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L148)
 
 ___
 
@@ -948,7 +948,7 @@ StatusObject.reopenToDraft
 
 #### Defined in
 
-[budget-statement/gen/status/object.ts:40](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/status/object.ts#L40)
+[budget-statement/gen/status/object.ts:40](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/status/object.ts#L40)
 
 ___
 
@@ -970,7 +970,7 @@ StatusObject.reopenToReview
 
 #### Defined in
 
-[budget-statement/gen/status/object.ts:48](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/status/object.ts#L48)
+[budget-statement/gen/status/object.ts:48](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/status/object.ts#L48)
 
 ___
 
@@ -997,7 +997,7 @@ TopupObject.requestTopup
 
 #### Defined in
 
-[budget-statement/gen/topup/object.ts:15](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/topup/object.ts#L15)
+[budget-statement/gen/topup/object.ts:15](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/topup/object.ts#L15)
 
 ___
 
@@ -1025,7 +1025,7 @@ A promise that resolves when the save operation completes.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:91](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L91)
+[budget-statement/gen/object.ts:91](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L91)
 
 ___
 
@@ -1051,7 +1051,7 @@ Sets the name of the document.
 
 #### Defined in
 
-[document/object.ts:132](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L132)
+[document/object.ts:132](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L132)
 
 ___
 
@@ -1071,7 +1071,7 @@ StatusObject.submitForReview
 
 #### Defined in
 
-[budget-statement/gen/status/object.ts:18](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/status/object.ts#L18)
+[budget-statement/gen/status/object.ts:18](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/status/object.ts#L18)
 
 ___
 
@@ -1099,7 +1099,7 @@ TopupObject.transferTopup
 
 #### Defined in
 
-[budget-statement/gen/topup/object.ts:27](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/topup/object.ts#L27)
+[budget-statement/gen/topup/object.ts:27](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/topup/object.ts#L27)
 
 ___
 
@@ -1125,7 +1125,7 @@ Reverts a number of actions from the document.
 
 #### Defined in
 
-[document/object.ts:140](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L140)
+[document/object.ts:140](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L140)
 
 ___
 
@@ -1151,7 +1151,7 @@ AccountObject.updateAccount
 
 #### Defined in
 
-[budget-statement/gen/account/object.ts:26](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/object.ts#L26)
+[budget-statement/gen/account/object.ts:26](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/object.ts#L26)
 
 ___
 
@@ -1178,7 +1178,7 @@ LineItemObject.updateLineItem
 
 #### Defined in
 
-[budget-statement/gen/line-item/object.ts:32](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/line-item/object.ts#L32)
+[budget-statement/gen/line-item/object.ts:32](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/line-item/object.ts#L32)
 
 ___
 
@@ -1202,7 +1202,7 @@ A promise that resolves with the loaded `BudgetStatementObject` instance.
 
 #### Defined in
 
-[budget-statement/gen/object.ts:111](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/object.ts#L111)
+[budget-statement/gen/object.ts:111](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/object.ts#L111)
 
 ___
 
@@ -1238,4 +1238,4 @@ The state of the document.
 
 #### Defined in
 
-[document/object.ts:63](https://github.com/acaldas/document-model-libs/blob/f53b317/src/document/object.ts#L63)
+[document/object.ts:63](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/document/object.ts#L63)

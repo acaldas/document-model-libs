@@ -37,7 +37,7 @@ Action.input
 
 #### Defined in
 
-[budget-statement/gen/account/types.ts:10](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/types.ts#L10)
+[budget-statement/gen/account/types.ts:10](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/types.ts#L10)
 
 ___
 
@@ -51,4 +51,4 @@ Action.type
 
 #### Defined in
 
-[budget-statement/gen/account/types.ts:9](https://github.com/acaldas/document-model-libs/blob/f53b317/src/budget-statement/gen/account/types.ts#L9)
+[budget-statement/gen/account/types.ts:9](https://github.com/acaldas/document-model-libs/blob/0089d8c/src/budget-statement/gen/account/types.ts#L9)
