@@ -29,7 +29,7 @@
 <div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"/><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="settings.html" title="settings"><img width=22 height=22 alt="Change settings" src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/wheel.svg"/></a></div></form></nav></div>
 <section id="main-content" class="content">
 <div class="main-heading">
-<h1 class="fqn"><span class="in-band">Project <a href="#" class="mod">@acaldas/document-model-libs</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/clipboard.svg" width=19 height=18 alt="Copy item path"/></button></span></h1><span class="out-of-band"><a class="srclink" href="https://github.com/acaldas/document-model-libs/blob/c08df6c/src/index.doc.ts#L1">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">−</span>]</a></span></div>
+<h1 class="fqn"><span class="in-band">Project <a href="#" class="mod">@acaldas/document-model-libs</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/clipboard.svg" width=19 height=18 alt="Copy item path"/></button></span></h1><span class="out-of-band"><a class="srclink" href="https://github.com/acaldas/document-model-libs/blob/9ea039d/src/index.doc.ts#L1">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">−</span>]</a></span></div>
 <details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary>
 <div class="docblock">
 <h1 id="powerhouse-document-model"><a href="#powerhouse-document-model">Powerhouse Document Model</a></h1>
@@ -104,38 +104,6 @@
 
 <h3 id="budget-statement-actions"><a href="#budget-statement-actions">Budget Statement Actions</a></h3>
 <p>▸ For more information on Budget Statement actions, please refer to the <a href="markdown/modules/BudgetStatement.actions.md">complete documentation</a>.</p>
-
-<h4 id="account"><a href="#account">Account</a></h4>
-<p>A budget statement might have multiple accounts, each with its own expenses.</p>
-<ul>
-<li><code>ADD_ACCOUNT</code>: Adds an account to the budget. This action accepts an array of accounts, so multiple accounts can be added in one action. The account can be initialized with all attributes but the only required attribute is an unique account address, which should follow a Gnosis-like format: <code>eth:0x...</code>.</li>
-</ul>
-<pre><code class="language-javascript"><span class="hl-5">addAccount</span><span class="hl-1">([{ </span><span class="hl-2">address:</span><span class="hl-1"> </span><span class="hl-2">string</span><span class="hl-1"> }]);</span>
-</code></pre>
-<ul>
-<li><code>UPDATE_ACCOUNT</code>: Edits existing accounts. Accounts are referenced by their address.</li>
-</ul>
-<pre><code class="language-javascript"><span class="hl-5">updateAccount</span><span class="hl-1">([{ </span><span class="hl-2">address:</span><span class="hl-1"> </span><span class="hl-2">string</span><span class="hl-1">, ...</span><span class="hl-2">account</span><span class="hl-1"> }]);</span>
-</code></pre>
-<ul>
-<li><code>DELETE_ACCOUNT</code>: Deletes the accounts with the provided addresses.</li>
-</ul>
-<pre><code class="language-javascript"><span class="hl-5">deleteAccount</span><span class="hl-1">(</span><span class="hl-2">accounts</span><span class="hl-1">: </span><span class="hl-2">string</span><span class="hl-1">[]);</span>
-</code></pre>
-
-<h4 id="status"><a href="#status">Status</a></h4>
-<p>The budget goes through various status as it is reviewed by auditors.
-It starts as a <code>Draft</code> which can then be submitted for <code>Review</code>. The auditor then either approves with or raises issues.</p>
-<ul>
-<li><code>SUBMIT_FOR_REVIEW</code>: Sets the budget as ready to be reviewed.</li>
-</ul>
-<pre><code class="language-javascript"><span class="hl-5">submitForReview</span><span class="hl-1">();</span>
-</code></pre>
-<ul>
-<li><code>ESCALATE</code>: Used by the auditor if there is any issue during the review</li>
-</ul>
-<pre><code class="language-javascript"><span class="hl-5">escalate</span><span class="hl-1">();</span>
-</code></pre>
 </div></details>
 <h2 id="category.Namespaces" class="small-section-header">Namespaces<a href="#category.Namespaces" class="anchor"></a></h2>
 <div class="item-table">
