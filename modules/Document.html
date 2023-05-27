@@ -28,18 +28,6 @@
 <ul>
 <li class="tsd-kind-class tsd-parent-kind-namespace"><a href="../classes/Document.BaseDocument.html">BaseDocument</a></li></ul></div>
 <div class="block">
-<h3><a href="#">Type Aliases</a></h3>
-<ul>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.Action.html">Action</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.Attachment.html">Attachment</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.Document.html">Document</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.DocumentFile.html">DocumentFile</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.DocumentHeader.html">DocumentHeader</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.FileRegistry.html">FileRegistry</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.ImmutableReducer.html">ImmutableReducer</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.Operation.html">Operation</a></li>
-<li class="tsd-kind-type-alias tsd-parent-kind-namespace"><a href="../types/Document.Reducer.html">Reducer</a></li></ul></div>
-<div class="block">
 <h3><a href="#">Functions</a></h3>
 <ul>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/Document.applyMixins.html">applyMixins</a></li>
@@ -52,7 +40,7 @@
 <div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"/><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="../settings.html" title="settings"><img width=22 height=22 alt="Change settings" src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/wheel.svg"/></a></div></form></nav></div>
 <section id="main-content" class="content">
 <div class="main-heading">
-<h1 class="fqn"><span class="in-band">Namespace <a href="#" class="mod">Document</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/clipboard.svg" width=19 height=18 alt="Copy item path"/></button></span></h1><span class="out-of-band"><a class="srclink" href="https://github.com/acaldas/document-model-libs/blob/8f6e67d/src/document/index.ts#L1">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">−</span>]</a></span></div>
+<h1 class="fqn"><span class="in-band">Namespace <a href="#" class="mod">Document</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/clipboard.svg" width=19 height=18 alt="Copy item path"/></button></span></h1><span class="out-of-band"><a class="srclink" href="https://github.com/acaldas/document-model-libs/blob/3a0f0da/src/document/index.ts#L1">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">−</span>]</a></span></div>
 <details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary>
 <div class="docblock">
 <p>This module exports all the public types, functions, and objects
@@ -83,42 +71,6 @@ documents</li>
 <div class="item-right docblock-short"><p>This is an abstract class representing a document and provides methods
 for creating and manipulating documents.</p>
 </div></div></div>
-<h2 id="category.Type Aliases" class="small-section-header">Type Aliases<a href="#category.Type Aliases" class="anchor"></a></h2>
-<div class="item-table">
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.Action.html" title="Action">Action</a></div>
-<div class="item-right docblock-short"><p>Defines the basic structure of an action.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.Attachment.html" title="Attachment">Attachment</a></div>
-<div class="item-right docblock-short"><p>String type representing an attachment in a Document.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.Document.html" title="Document">Document</a></div>
-<div class="item-right docblock-short"><p>The base type of a document model.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.DocumentFile.html" title="DocumentFile">DocumentFile</a></div>
-<div class="item-right docblock-short"><p>The attributes stored for a file. Namely, attachments of a document.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.DocumentHeader.html" title="DocumentHeader">DocumentHeader</a></div>
-<div class="item-right docblock-short"><p>The base attributes of a <a href="../types/Document.Document.html">Document</a>.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.FileRegistry.html" title="FileRegistry">FileRegistry</a></div>
-<div class="item-right docblock-short"><p>Object that indexes attachments of a Document.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.ImmutableReducer.html" title="ImmutableReducer">ImmutableReducer</a></div>
-<div class="item-right docblock-short"></div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.Operation.html" title="Operation">Operation</a></div>
-<div class="item-right docblock-short"><p>An operation that was applied to a <a href="../types/Document.Document.html">Document</a>.</p>
-</div></div>
-<div class="item-row tsd-kind-type-alias tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="type" href="../types/Document.Reducer.html" title="Reducer">Reducer</a></div>
-<div class="item-right docblock-short"></div></div></div>
 <h2 id="category.Functions" class="small-section-header">Functions<a href="#category.Functions" class="anchor"></a></h2>
 <div class="item-table">
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">

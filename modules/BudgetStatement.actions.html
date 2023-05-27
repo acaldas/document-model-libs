@@ -23,6 +23,7 @@
 <ul>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.addAccount.html">addAccount</a></li>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.deleteAccount.html">deleteAccount</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.sortAccounts.html">sortAccounts</a></li>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.updateAccount.html">updateAccount</a></li></ul></div>
 <div class="block">
 <h3><a href="#">Audit</a></h3>
@@ -30,23 +31,25 @@
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.addAuditReport.html">addAuditReport</a></li>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.deleteAuditReport.html">deleteAuditReport</a></li></ul></div>
 <div class="block">
+<h3><a href="#">Functions</a></h3>
+<ul>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.addComment.html">addComment</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.addVesting.html">addVesting</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.deleteComment.html">deleteComment</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.deleteVesting.html">deleteVesting</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.setFtes.html">setFtes</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.setMonth.html">setMonth</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.setOwner.html">setOwner</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.setQuoteCurrency.html">setQuoteCurrency</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.updateComment.html">updateComment</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.updateVesting.html">updateVesting</a></li></ul></div>
+<div class="block">
 <h3><a href="#">Line Item</a></h3>
 <ul>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.addLineItem.html">addLineItem</a></li>
 <li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.deleteLineItem.html">deleteLineItem</a></li>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.updateLineItem.html">updateLineItem</a></li></ul></div>
-<div class="block">
-<h3><a href="#">Status</a></h3>
-<ul>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.approve.html">approve</a></li>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.escalate.html">escalate</a></li>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.reopenToDraft.html">reopenToDraft</a></li>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.reopenToReview.html">reopenToReview</a></li>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.submitForReview.html">submitForReview</a></li></ul></div>
-<div class="block">
-<h3><a href="#">Init</a></h3>
-<ul>
-<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.init.html">init</a></li></ul></div></section></div></nav><main>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.sortLineItems.html">sortLineItems</a></li>
+<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="../functions/BudgetStatement.actions.updateLineItem.html">updateLineItem</a></li></ul></div></section></div></nav><main>
 <div class="width-limiter">
 <div class="sub-container"><a class="sub-logo-container" href="../index.html"><img class="rust-logo" src="../assets/fons/logo.svg" alt="logo"/></a>
 <nav class="sub">
@@ -55,7 +58,7 @@
 <div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"/><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="../settings.html" title="settings"><img width=22 height=22 alt="Change settings" src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/wheel.svg"/></a></div></form></nav></div>
 <section id="main-content" class="content">
 <div class="main-heading">
-<h1 class="fqn"><span class="in-band">Namespace <a href="BudgetStatement.html">BudgetStatement</a>.<wbr/><a href="#" class="mod">actions</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/clipboard.svg" width=19 height=18 alt="Copy item path"/></button></span></h1><span class="out-of-band"><a class="srclink" href="https://github.com/acaldas/document-model-libs/blob/8f6e67d/src/budget-statement/gen/action.ts#L1">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">−</span>]</a></span></div>
+<h1 class="fqn"><span class="in-band">Namespace <a href="BudgetStatement.html">BudgetStatement</a>.<wbr/><a href="#" class="mod">actions</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="https://cdn.jsdelivr.net/gh/rust-lang/rust@1.61.0/src/librustdoc/html/static/images/clipboard.svg" width=19 height=18 alt="Copy item path"/></button></span></h1><span class="out-of-band"><a class="srclink" href="https://github.com/acaldas/document-model-libs/blob/3a0f0da/src/budget-statement/gen/action.ts#L1">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">−</span>]</a></span></div>
 <h2 id="category.Account" class="small-section-header">Account<a href="#category.Account" class="anchor"></a></h2>
 <div class="item-table">
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">
@@ -63,6 +66,9 @@
 <div class="item-right docblock-short"></div></div>
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">
 <div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.deleteAccount.html" title="deleteAccount">deleteAccount</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.sortAccounts.html" title="sortAccounts">sortAccounts</a></div>
 <div class="item-right docblock-short"></div></div>
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">
 <div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.updateAccount.html" title="updateAccount">updateAccount</a></div>
@@ -75,6 +81,38 @@
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">
 <div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.deleteAuditReport.html" title="deleteAuditReport">deleteAuditReport</a></div>
 <div class="item-right docblock-short"></div></div></div>
+<h2 id="category.Functions" class="small-section-header">Functions<a href="#category.Functions" class="anchor"></a></h2>
+<div class="item-table">
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.addComment.html" title="addComment">addComment</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.addVesting.html" title="addVesting">addVesting</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.deleteComment.html" title="deleteComment">deleteComment</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.deleteVesting.html" title="deleteVesting">deleteVesting</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.setFtes.html" title="setFtes">setFtes</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.setMonth.html" title="setMonth">setMonth</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.setOwner.html" title="setOwner">setOwner</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.setQuoteCurrency.html" title="setQuoteCurrency">setQuoteCurrency</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.updateComment.html" title="updateComment">updateComment</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.updateVesting.html" title="updateVesting">updateVesting</a></div>
+<div class="item-right docblock-short"></div></div></div>
 <h2 id="category.Line Item" class="small-section-header">Line Item<a href="#category.Line Item" class="anchor"></a></h2>
 <div class="item-table">
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">
@@ -84,29 +122,10 @@
 <div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.deleteLineItem.html" title="deleteLineItem">deleteLineItem</a></div>
 <div class="item-right docblock-short"></div></div>
 <div class="item-row tsd-kind-function tsd-parent-kind-namespace">
+<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.sortLineItems.html" title="sortLineItems">sortLineItems</a></div>
+<div class="item-right docblock-short"></div></div>
+<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
 <div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.updateLineItem.html" title="updateLineItem">updateLineItem</a></div>
-<div class="item-right docblock-short"></div></div></div>
-<h2 id="category.Status" class="small-section-header">Status<a href="#category.Status" class="anchor"></a></h2>
-<div class="item-table">
-<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.approve.html" title="approve">approve</a></div>
-<div class="item-right docblock-short"></div></div>
-<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.escalate.html" title="escalate">escalate</a></div>
-<div class="item-right docblock-short"></div></div>
-<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.reopenToDraft.html" title="reopenToDraft">reopenToDraft</a></div>
-<div class="item-right docblock-short"></div></div>
-<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.reopenToReview.html" title="reopenToReview">reopenToReview</a></div>
-<div class="item-right docblock-short"></div></div>
-<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.submitForReview.html" title="submitForReview">submitForReview</a></div>
-<div class="item-right docblock-short"></div></div></div>
-<h2 id="category.Init" class="small-section-header">Init<a href="#category.Init" class="anchor"></a></h2>
-<div class="item-table">
-<div class="item-row tsd-kind-function tsd-parent-kind-namespace">
-<div class="item-left module-item"><a class="fn" href="../functions/BudgetStatement.actions.init.html" title="init">init</a></div>
 <div class="item-right docblock-short"></div></div></div></section>
 <section id="search" class="content hidden"></section></div></main>
 <div id="rustdoc-vars" data-root-path="../index.html" data-current-crate="@acaldas/document-model-libs" data-themes="light,dark,ayu" data-resource-suffix="" data-rustdoc-version="1.61.0"></div></body></html>
